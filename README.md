@@ -3,14 +3,14 @@
 
 ## How to install
 **Windows**
-´´´
+```
 py -m pip install git+https://github.com/LunaHD24/FilyManaging.git#egg=FilyManaging
-´´´
+```
 
 **Unix/MacOS**
-´´´
+```
 python3 -m pip install git+https://github.com/LunaHD24/FilyManaging.git#egg=FilyManaging
-´´´
+```
 
 ## Documentation
 
