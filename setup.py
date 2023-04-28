@@ -1,10 +1,8 @@
 from setuptools import setup
 
-from filymanaging import __version__
-
 setup(
     name='filemanaging',
-    version=__version__,
+    version="dev-0.0.1",
 
     url='https://github.com/LunaHD24/FilyManaging',
     author='LunaHD24',
