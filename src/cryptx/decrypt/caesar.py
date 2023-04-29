@@ -29,20 +29,20 @@ __alphabet = [
 
 
 def caesar(text: str,shift: int):
-    """Used to encrypt text with the caesar encryption method.
+    """Used to decrypt text encrypted with the caesar encryption method.
     .. |language| replace:: Python
     
     Parameters
     ----------
     text : str
-        The text to encrypt
+        The text to decrypt
 
     shift : int
         The shift of the letters in the alphabet
    
     Return Values
     -------------
-    Returns the encrypted text
+    Returns the decrypted text
 
     Raises
     ------
@@ -65,7 +65,7 @@ def caesar(text: str,shift: int):
         if str(text[int(__letter)]) == " ":
             pass
         else:
-            __pos = __alphabet.index(str(text[int(__letter)]))
-            __output = __output + str(__shifted_alphabet[__pos])
+            __pos = __shifted_alphabet.index(str(text[int(__letter)]))
+            __output = __output + str(__alphabet[__pos])
     
     return(__output)

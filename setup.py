@@ -6,7 +6,6 @@ setup(
 
     url='https://github.com/LunaHD24/cryptx',
     author='LunaHD24',
-    author_email='yannick.rumelfanger@gmail.com',
 
     py_modules=['cryptx'],
 )
